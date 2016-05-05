@@ -13,10 +13,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
 @property (nonatomic) UserInfo *userInfo;
 
 @end
