@@ -5,6 +5,7 @@
 //  Created by lk on 16/5/5.
 //  Copyright © 2016年 yuan. All rights reserved.
 //
+
 #import "ChannelInfo.h"
 static ChannelInfo *currentChannel;
 static NSArray *channelsTitleArray;
@@ -60,4 +61,3 @@ static NSArray *channelsTitleArray;
 }
 
 @end
-

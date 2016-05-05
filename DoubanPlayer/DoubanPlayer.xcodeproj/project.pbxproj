@@ -67,6 +67,7 @@
 		1CB728781CDA292100DD10C4 = {
 			isa = PBXGroup;
 			children = (
+				4A021C4B1CDB6598003F4087 /* yangge */,
 				1CD736761CDB620E00614062 /* CDSideBarController */,
 				1CB728831CDA292100DD10C4 /* DoubanPlayer */,
 				1CB728821CDA292100DD10C4 /* Products */,
@@ -126,6 +127,23 @@
 				4D4FCDA04F014E15C76FFAE5 /* Pods-DoubanPlayer.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A021C4B1CDB6598003F4087 /* yangge */ = {
+			isa = PBXGroup;
+			children = (
+				4A021C4C1CDB6645003F4087 /* ChannelsTableViewController.h */,
+				4A021C4D1CDB6645003F4087 /* ChannelsTableViewController.m */,
+				4A021C4F1CDB66CF003F4087 /* Channellnfo.h */,
+				4A021C501CDB66CF003F4087 /* Channellnfo.m */,
+				4A021C751CDB6CBA003F4087 /* DFMUpChannelsEntity.h */,
+				4A021C761CDB6CBA003F4087 /* DFMUpChannelsEntity.m */,
+				4A021C781CDB6D8E003F4087 /* DFMHotChannelsEntity.h */,
+				4A021C791CDB6D8E003F4087 /* DFMHotChannelsEntity.m */,
+				4A021C7B1CDB6F58003F4087 /* DFMRecChannelsEntity.h */,
+				4A021C7C1CDB6F58003F4087 /* DFMRecChannelsEntity.m */,
+			);
+			name = yangge;
 			sourceTree = "<group>";
 		};
 		62F16BE21CDA2B8E00CD9B42 /* Mondel */ = {
@@ -279,6 +297,9 @@
 			files = (
 				1CB7288C1CDA292100DD10C4 /* ViewController.m in Sources */,
 				1CD736751CDB620B00614062 /* CDSideBarController.m in Sources */,
+				4A021C4E1CDB6645003F4087 /* ChannelsTableViewController.m in Sources */,
+				4A021C771CDB6CBA003F4087 /* DFMUpChannelsEntity.m in Sources */,
+				4A021C7A1CDB6D8E003F4087 /* DFMHotChannelsEntity.m in Sources */,
 				1CB728891CDA292100DD10C4 /* AppDelegate.m in Sources */,
 				1CB728861CDA292100DD10C4 /* main.m in Sources */,
 				4AEAEE231CDB68D40002ADF1 /* UserInfo.m in Sources */,
