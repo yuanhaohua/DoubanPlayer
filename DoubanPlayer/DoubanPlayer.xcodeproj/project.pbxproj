@@ -18,6 +18,7 @@
 		4A021C511CDB66CF003F4087 /* Channellnfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A021C501CDB66CF003F4087 /* Channellnfo.m */; };
 		4A021C771CDB6CBA003F4087 /* DFMUpChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A021C761CDB6CBA003F4087 /* DFMUpChannelsEntity.m */; };
 		4A021C7A1CDB6D8E003F4087 /* DFMHotChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A021C791CDB6D8E003F4087 /* DFMHotChannelsEntity.m */; };
+		4A021C7D1CDB6F58003F4087 /* DFMRecChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A021C7C1CDB6F58003F4087 /* DFMRecChannelsEntity.m */; };
 		752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09582FED48464CD3A29EB0ED /* libPods-DoubanPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		4A021C761CDB6CBA003F4087 /* DFMUpChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMUpChannelsEntity.m; sourceTree = "<group>"; };
 		4A021C781CDB6D8E003F4087 /* DFMHotChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMHotChannelsEntity.h; sourceTree = "<group>"; };
 		4A021C791CDB6D8E003F4087 /* DFMHotChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMHotChannelsEntity.m; sourceTree = "<group>"; };
+		4A021C7B1CDB6F58003F4087 /* DFMRecChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMRecChannelsEntity.h; sourceTree = "<group>"; };
+		4A021C7C1CDB6F58003F4087 /* DFMRecChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMRecChannelsEntity.m; sourceTree = "<group>"; };
 		4D4FCDA04F014E15C76FFAE5 /* Pods-DoubanPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		626FDF571CDAF35A006187C0 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		626FDF581CDAF35A006187C0 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				4A021C761CDB6CBA003F4087 /* DFMUpChannelsEntity.m */,
 				4A021C781CDB6D8E003F4087 /* DFMHotChannelsEntity.h */,
 				4A021C791CDB6D8E003F4087 /* DFMHotChannelsEntity.m */,
+				4A021C7B1CDB6F58003F4087 /* DFMRecChannelsEntity.h */,
+				4A021C7C1CDB6F58003F4087 /* DFMRecChannelsEntity.m */,
 			);
 			name = yangge;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				4A021C7A1CDB6D8E003F4087 /* DFMHotChannelsEntity.m in Sources */,
 				1CB728891CDA292100DD10C4 /* AppDelegate.m in Sources */,
 				4A021C511CDB66CF003F4087 /* Channellnfo.m in Sources */,
+				4A021C7D1CDB6F58003F4087 /* DFMRecChannelsEntity.m in Sources */,
 				1CB728861CDA292100DD10C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
