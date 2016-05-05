@@ -13,7 +13,10 @@
 		1CB7288F1CDA292100DD10C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7288D1CDA292100DD10C4 /* Main.storyboard */; };
 		1CB728911CDA292100DD10C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728901CDA292100DD10C4 /* Assets.xcassets */; };
 		1CB728941CDA292100DD10C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728921CDA292100DD10C4 /* LaunchScreen.storyboard */; };
+		626FDF591CDAF35A006187C0 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FDF581CDAF35A006187C0 /* NetworkManager.m */; };
 		62F16BE51CDA2C1A00CD9B42 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F16BE41CDA2C1A00CD9B42 /* PlayerController.m */; };
+		62F16BE81CDA2D9300CD9B42 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F16BE71CDA2D9300CD9B42 /* ProtocolClass.m */; };
+		62F16BEB1CDA2EC300CD9B42 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */; };
 		752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09582FED48464CD3A29EB0ED /* libPods-DoubanPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +33,14 @@
 		1CB728931CDA292100DD10C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB728951CDA292100DD10C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4FCDA04F014E15C76FFAE5 /* Pods-DoubanPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		626FDF571CDAF35A006187C0 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		626FDF581CDAF35A006187C0 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		62F16BE31CDA2C1A00CD9B42 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
 		62F16BE41CDA2C1A00CD9B42 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
+		62F16BE61CDA2D9300CD9B42 /* ProtocolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolClass.h; sourceTree = "<group>"; };
+		62F16BE71CDA2D9300CD9B42 /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
+		62F16BE91CDA2EC300CD9B42 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		BC94C0679F37C908816E9BC4 /* Pods-DoubanPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +81,8 @@
 				1CB728881CDA292100DD10C4 /* AppDelegate.m */,
 				1CB7288A1CDA292100DD10C4 /* ViewController.h */,
 				1CB7288B1CDA292100DD10C4 /* ViewController.m */,
+				62F16BE91CDA2EC300CD9B42 /* PlayerViewController.h */,
+				62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */,
 				62F16BE21CDA2B8E00CD9B42 /* Mondel */,
 				1CB7288D1CDA292100DD10C4 /* Main.storyboard */,
 				1CB728901CDA292100DD10C4 /* Assets.xcassets */,
@@ -104,6 +115,10 @@
 			children = (
 				62F16BE31CDA2C1A00CD9B42 /* PlayerController.h */,
 				62F16BE41CDA2C1A00CD9B42 /* PlayerController.m */,
+				626FDF571CDAF35A006187C0 /* NetworkManager.h */,
+				626FDF581CDAF35A006187C0 /* NetworkManager.m */,
+				62F16BE61CDA2D9300CD9B42 /* ProtocolClass.h */,
+				62F16BE71CDA2D9300CD9B42 /* ProtocolClass.m */,
 			);
 			name = Mondel;
 			sourceTree = "<group>";
@@ -238,9 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB7288C1CDA292100DD10C4 /* ViewController.m in Sources */,
+				626FDF591CDAF35A006187C0 /* NetworkManager.m in Sources */,
+				62F16BE81CDA2D9300CD9B42 /* ProtocolClass.m in Sources */,
 				1CB728891CDA292100DD10C4 /* AppDelegate.m in Sources */,
 				62F16BE51CDA2C1A00CD9B42 /* PlayerController.m in Sources */,
 				1CB728861CDA292100DD10C4 /* main.m in Sources */,
+				62F16BEB1CDA2EC300CD9B42 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
