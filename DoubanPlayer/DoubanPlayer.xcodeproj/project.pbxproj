@@ -14,6 +14,8 @@
 		1CB728911CDA292100DD10C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728901CDA292100DD10C4 /* Assets.xcassets */; };
 		1CB728941CDA292100DD10C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728921CDA292100DD10C4 /* LaunchScreen.storyboard */; };
 		626FDF591CDAF35A006187C0 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FDF581CDAF35A006187C0 /* NetworkManager.m */; };
+		626FDF5B1CDB50D9006187C0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626FDF5A1CDB50D9006187C0 /* MediaPlayer.framework */; };
+		626FDF5E1CDB541C006187C0 /* DFMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FDF5D1CDB541C006187C0 /* DFMPlaylist.m */; };
 		62F16BE51CDA2C1A00CD9B42 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F16BE41CDA2C1A00CD9B42 /* PlayerController.m */; };
 		62F16BE81CDA2D9300CD9B42 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F16BE71CDA2D9300CD9B42 /* ProtocolClass.m */; };
 		62F16BEB1CDA2EC300CD9B42 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */; };
@@ -35,6 +37,9 @@
 		4D4FCDA04F014E15C76FFAE5 /* Pods-DoubanPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		626FDF571CDAF35A006187C0 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		626FDF581CDAF35A006187C0 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		626FDF5A1CDB50D9006187C0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		626FDF5C1CDB541C006187C0 /* DFMPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMPlaylist.h; sourceTree = "<group>"; };
+		626FDF5D1CDB541C006187C0 /* DFMPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMPlaylist.m; sourceTree = "<group>"; };
 		62F16BE31CDA2C1A00CD9B42 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
 		62F16BE41CDA2C1A00CD9B42 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
 		62F16BE61CDA2D9300CD9B42 /* ProtocolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolClass.h; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626FDF5B1CDB50D9006187C0 /* MediaPlayer.framework in Frameworks */,
 				752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +125,8 @@
 				626FDF581CDAF35A006187C0 /* NetworkManager.m */,
 				62F16BE61CDA2D9300CD9B42 /* ProtocolClass.h */,
 				62F16BE71CDA2D9300CD9B42 /* ProtocolClass.m */,
+				626FDF5C1CDB541C006187C0 /* DFMPlaylist.h */,
+				626FDF5D1CDB541C006187C0 /* DFMPlaylist.m */,
 			);
 			name = Mondel;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		8DA2637829D3E41E84CA7290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				626FDF5A1CDB50D9006187C0 /* MediaPlayer.framework */,
 				09582FED48464CD3A29EB0ED /* libPods-DoubanPlayer.a */,
 			);
 			name = Frameworks;
@@ -253,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB7288C1CDA292100DD10C4 /* ViewController.m in Sources */,
+				626FDF5E1CDB541C006187C0 /* DFMPlaylist.m in Sources */,
 				626FDF591CDAF35A006187C0 /* NetworkManager.m in Sources */,
 				62F16BE81CDA2D9300CD9B42 /* ProtocolClass.m in Sources */,
 				1CB728891CDA292100DD10C4 /* AppDelegate.m in Sources */,
@@ -321,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -360,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

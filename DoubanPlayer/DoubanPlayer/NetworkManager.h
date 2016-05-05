@@ -21,15 +21,14 @@
 -(void)setChannel:(NSUInteger)channelIndex withURLWithString:(NSString *)urlWithString;//设置频道与它的资源占位符
 
 -(void)LoginwithUsername:(NSString *)username Password:(NSString *)password
-Captcha:(NSString *)captc RememberOnorOff:(NSString *)rememberOnorOff;//用户名注册及密码，验证码
+Captcha:(NSString *)captc RememberOnorOff:(NSString *)rememberOnorOff;//用户名注册及密码设置，验证码
 
 
--(void)logout;
+-(void)logout;//注销
 
+-(void)loadCaptchaImage;//加载验证码
 
--(void)loadCaptchaImage;
-
--(void)loadPlaylistwithType:(NSString *)type;
+-(void)loadPlaylistwithType:(NSString *)type;//
 
 
 @end

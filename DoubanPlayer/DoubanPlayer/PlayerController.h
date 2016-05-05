@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 #import "NetworkManager.h"
 #import "ProtocolClass.h"
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface PlayerController : MPMoviePlayerController
 
 @property(nonatomic,weak) id<DoubanDelegate>songInfoDelegate;//将协议引进来，把协议声明为属性，需要实现这个协议，而不是单纯的引用
