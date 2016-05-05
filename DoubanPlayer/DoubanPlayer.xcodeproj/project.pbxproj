@@ -14,6 +14,7 @@
 		1CB728911CDA292100DD10C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728901CDA292100DD10C4 /* Assets.xcassets */; };
 		1CB728941CDA292100DD10C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728921CDA292100DD10C4 /* LaunchScreen.storyboard */; };
 		1CD736751CDB620B00614062 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD736741CDB620B00614062 /* CDSideBarController.m */; };
+		4AEAEE201CDB667F0002ADF1 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAEE1F1CDB667F0002ADF1 /* SongInfo.m */; };
 		752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09582FED48464CD3A29EB0ED /* libPods-DoubanPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		1CB728951CDA292100DD10C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD736731CDB620B00614062 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
 		1CD736741CDB620B00614062 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
+		4AEAEE1E1CDB667F0002ADF1 /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
+		4AEAEE1F1CDB667F0002ADF1 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4D4FCDA04F014E15C76FFAE5 /* Pods-DoubanPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		626FDF571CDAF35A006187C0 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		626FDF581CDAF35A006187C0 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				626FDF5B1CDB50D9006187C0 /* MediaPlayer.framework in Frameworks */,
 				752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +136,8 @@
 				62F16BE71CDA2D9300CD9B42 /* ProtocolClass.m */,
 				626FDF5C1CDB541C006187C0 /* DFMPlaylist.h */,
 				626FDF5D1CDB541C006187C0 /* DFMPlaylist.m */,
+				4AEAEE1E1CDB667F0002ADF1 /* SongInfo.h */,
+				4AEAEE1F1CDB667F0002ADF1 /* SongInfo.m */,
 			);
 			name = Mondel;
 			sourceTree = "<group>";
@@ -268,13 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A021C471CDB5388003F4087 /* Channellnfo.m in Sources */,
 				1CB7288C1CDA292100DD10C4 /* ViewController.m in Sources */,
 				1CD736751CDB620B00614062 /* CDSideBarController.m in Sources */,
 				1CB728891CDA292100DD10C4 /* AppDelegate.m in Sources */,
-				62F16BE51CDA2C1A00CD9B42 /* PlayerController.m in Sources */,
 				1CB728861CDA292100DD10C4 /* main.m in Sources */,
-				62F16BEB1CDA2EC300CD9B42 /* PlayerViewController.m in Sources */,
+				4AEAEE201CDB667F0002ADF1 /* SongInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
