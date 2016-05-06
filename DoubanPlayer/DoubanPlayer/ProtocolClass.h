@@ -2,7 +2,7 @@
 //  ProtocolClass.h
 //  DoubanPlayer
 //
-//  Created by lkjy on 16/5/4.
+//  Created by lkjy on 16/5/6.
 //  Copyright © 2016年 yuan. All rights reserved.
 //
 
@@ -26,7 +26,7 @@
 -(void)menuButtonClicked:(int)index;//根据下标点击菜单按钮
 
 @end
+
 @interface ProtocolClass : NSObject
 
 @end
-

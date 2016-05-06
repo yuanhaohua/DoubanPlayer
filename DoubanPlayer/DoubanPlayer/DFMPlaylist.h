@@ -2,7 +2,7 @@
 //  DFMPlaylist.h
 //  DoubanPlayer
 //
-//  Created by lkjy on 16/5/5.
+//  Created by lk on 16/5/6.
 //  Copyright © 2016年 yuan. All rights reserved.
 //
 
@@ -10,5 +10,7 @@
 
 @interface DFMPlaylist : NSObject
 
-@property(nonatomic,copy)NSMutableArray* song;//创建歌曲列表的可变数组
+//定义一个存储歌曲的可变数组
+@property(nonatomic,copy)NSMutableArray* song;
+
 @end

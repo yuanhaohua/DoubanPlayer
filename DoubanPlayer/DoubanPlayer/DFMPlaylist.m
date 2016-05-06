@@ -2,18 +2,17 @@
 //  DFMPlaylist.m
 //  DoubanPlayer
 //
-//  Created by lkjy on 16/5/5.
+//  Created by lk on 16/5/6.
 //  Copyright © 2016年 yuan. All rights reserved.
 //
 
 #import "DFMPlaylist.h"
-//#import "SongInfo.h"
+#import "SongInfo.h"
 @implementation DFMPlaylist
-+ (NSDictionary *)objectClassInArray
+
++(NSDictionary*)objectClassInArray
 {
-   // return @{
-           //  @"song" : NSStringFromClass([SongInfo class]),
-            // };
+    return @{@"song":NSStringFromClass([SongInfo class])};
 }
 
 @end
