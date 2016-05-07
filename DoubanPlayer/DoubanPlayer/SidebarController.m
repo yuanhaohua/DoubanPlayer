@@ -70,7 +70,7 @@
     
     self.tabBar.hidden = YES;//标签条隐藏
     
-    //
+    //当这个视图属于类视图时，将这个子视图弹出显示
     for (UIView * child in self.tabBar.subviews)
     {
         if ([child isKindOfClass:[UIControl class]])
