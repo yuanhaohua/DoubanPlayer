@@ -24,12 +24,11 @@
 		1CB728911CDA292100DD10C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728901CDA292100DD10C4 /* Assets.xcassets */; };
 		1CB728941CDA292100DD10C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB728921CDA292100DD10C4 /* LaunchScreen.storyboard */; };
 		1CD736751CDB620B00614062 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD736741CDB620B00614062 /* CDSideBarController.m */; };
-		4A09A9BC1CDDC40200E9F7D9 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A9B11CDDC40200E9F7D9 /* CDSideBarController.m */; };
 		4A09A9BF1CDDC40200E9F7D9 /* DFMHotChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A9B71CDDC40200E9F7D9 /* DFMHotChannelsEntity.m */; };
 		4A09A9C01CDDC40200E9F7D9 /* DFMRecChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A9B91CDDC40200E9F7D9 /* DFMRecChannelsEntity.m */; };
 		4A09A9C11CDDC40200E9F7D9 /* DFMUpChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A9BB1CDDC40200E9F7D9 /* DFMUpChannelsEntity.m */; };
-		4A09A9C41CDDCA5600E9F7D9 /* Channellnfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A9C31CDDCA5600E9F7D9 /* Channellnfo.m */; };
 		4A09A9CD1CDDCB9000E9F7D9 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A9CC1CDDCB9000E9F7D9 /* ChannelsTableViewController.m */; };
+		4A8C20071CDDD61A00904E22 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C20061CDDD61A00904E22 /* UserInfoViewController.m */; };
 		4AEB1D8F1CDCABA300B7F2F8 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB1D8E1CDCABA300B7F2F8 /* SongInfo.m */; };
 		4AEB1D921CDCAD8F00B7F2F8 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB1D911CDCAD8F00B7F2F8 /* UserInfo.m */; };
 		4AEB1D951CDCAFBD00B7F2F8 /* DFMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB1D941CDCAFBD00B7F2F8 /* DFMPlaylist.m */; };
@@ -82,6 +81,8 @@
 		4A09A9C31CDDCA5600E9F7D9 /* Channellnfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channellnfo.m; sourceTree = "<group>"; };
 		4A09A9CB1CDDCB9000E9F7D9 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
 		4A09A9CC1CDDCB9000E9F7D9 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
+		4A8C20051CDDD61A00904E22 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		4A8C20061CDDD61A00904E22 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		4AEB1D8D1CDCABA300B7F2F8 /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
 		4AEB1D8E1CDCABA300B7F2F8 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4AEB1D901CDCAD8F00B7F2F8 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
@@ -182,6 +183,8 @@
 				626FDF5F1CDB64B1006187C0 /* Controller */,
 				62F16BE91CDA2EC300CD9B42 /* PlayerViewController.h */,
 				62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */,
+				4A8C20051CDDD61A00904E22 /* UserInfoViewController.h */,
+				4A8C20061CDDD61A00904E22 /* UserInfoViewController.m */,
 				62F16BE21CDA2B8E00CD9B42 /* Mondel */,
 				1CB7288D1CDA292100DD10C4 /* Main.storyboard */,
 				1CB728901CDA292100DD10C4 /* Assets.xcassets */,
@@ -411,6 +414,7 @@
 				1C7EE4541CDDC67B00F7F690 /* DFMUpChannelsEntity.m in Sources */,
 				1C7EE4521CDDC67B00F7F690 /* DFMHotChannelsEntity.m in Sources */,
 				4AEB1D921CDCAD8F00B7F2F8 /* UserInfo.m in Sources */,
+				4A8C20071CDDD61A00904E22 /* UserInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
