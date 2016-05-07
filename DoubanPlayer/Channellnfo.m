@@ -2,12 +2,12 @@
 //  Channellnfo.m
 //  DoubanPlayer
 //
-//  Created by lk on 16/5/5.
+//  Created by lk on 16/5/7.
 //  Copyright © 2016年 yuan. All rights reserved.
 //
 
-#import "ChannelInfo.h"
-static ChannelInfo *currentChannel;
+#import "Channellnfo.h"
+static ChannelInfo*currentChannel;
 static NSArray *channelsTitleArray;
 
 @implementation ChannelInfo
@@ -61,3 +61,4 @@ static NSArray *channelsTitleArray;
 }
 
 @end
+

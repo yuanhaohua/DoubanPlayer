@@ -2,7 +2,7 @@
 //  Channellnfo.h
 //  DoubanPlayer
 //
-//  Created by lk on 16/5/5.
+//  Created by lk on 16/5/7.
 //  Copyright © 2016年 yuan. All rights reserved.
 //
 
