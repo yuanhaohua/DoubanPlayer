@@ -35,6 +35,8 @@
 		626FDF621CDB696E006187C0 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FDF611CDB696E006187C0 /* ProtocolClass.m */; };
 		62C8D94D1CDDFFE700471EE2 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8D94C1CDDFFE700471EE2 /* SidebarController.m */; };
 		62C8D9511CDE026700471EE2 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8D9501CDE026700471EE2 /* PlayerController.m */; };
+		62C8D9541CDE078700471EE2 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8D9531CDE078700471EE2 /* PlayerController.m */; };
+		62C8D9571CDE085A00471EE2 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8D9561CDE085A00471EE2 /* NetworkManager.m */; };
 		752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09582FED48464CD3A29EB0ED /* libPods-DoubanPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,10 @@
 		62C8D94C1CDDFFE700471EE2 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
 		62C8D94F1CDE026700471EE2 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
 		62C8D9501CDE026700471EE2 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
+		62C8D9521CDE078700471EE2 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
+		62C8D9531CDE078700471EE2 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
+		62C8D9551CDE085A00471EE2 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		62C8D9561CDE085A00471EE2 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		62F16BE91CDA2EC300CD9B42 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		BC94C0679F37C908816E9BC4 /* Pods-DoubanPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -270,6 +276,10 @@
 			children = (
 				626FDF601CDB696E006187C0 /* ProtocolClass.h */,
 				626FDF611CDB696E006187C0 /* ProtocolClass.m */,
+				62C8D9551CDE085A00471EE2 /* NetworkManager.h */,
+				62C8D9561CDE085A00471EE2 /* NetworkManager.m */,
+				62C8D9521CDE078700471EE2 /* PlayerController.h */,
+				62C8D9531CDE078700471EE2 /* PlayerController.m */,
 				4AEB1D8D1CDCABA300B7F2F8 /* SongInfo.h */,
 				4AEB1D8E1CDCABA300B7F2F8 /* SongInfo.m */,
 				4AEB1D901CDCAD8F00B7F2F8 /* UserInfo.h */,
@@ -419,6 +429,7 @@
 				1C7EE4501CDDC67B00F7F690 /* Channellnfo.m in Sources */,
 				62C8D94D1CDDFFE700471EE2 /* SidebarController.m in Sources */,
 				4AEB1D951CDCAFBD00B7F2F8 /* DFMPlaylist.m in Sources */,
+				62C8D9541CDE078700471EE2 /* PlayerController.m in Sources */,
 				4A09A9C11CDDC40200E9F7D9 /* DFMUpChannelsEntity.m in Sources */,
 				4A09A9C01CDDC40200E9F7D9 /* DFMRecChannelsEntity.m in Sources */,
 				626FDF621CDB696E006187C0 /* ProtocolClass.m in Sources */,
@@ -428,6 +439,7 @@
 				1CD736751CDB620B00614062 /* CDSideBarController.m in Sources */,
 				1CB728891CDA292100DD10C4 /* AppDelegate.m in Sources */,
 				1C7EE4531CDDC67B00F7F690 /* DFMRecChannelsEntity.m in Sources */,
+				62C8D9571CDE085A00471EE2 /* NetworkManager.m in Sources */,
 				1C7EE4511CDDC67B00F7F690 /* ChannelsTableViewController.m in Sources */,
 				1CB728861CDA292100DD10C4 /* main.m in Sources */,
 				1C7EE4541CDDC67B00F7F690 /* DFMUpChannelsEntity.m in Sources */,
