@@ -33,6 +33,8 @@
 		4AEB1D921CDCAD8F00B7F2F8 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB1D911CDCAD8F00B7F2F8 /* UserInfo.m */; };
 		4AEB1D951CDCAFBD00B7F2F8 /* DFMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB1D941CDCAFBD00B7F2F8 /* DFMPlaylist.m */; };
 		626FDF621CDB696E006187C0 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FDF611CDB696E006187C0 /* ProtocolClass.m */; };
+		62C8D94D1CDDFFE700471EE2 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8D94C1CDDFFE700471EE2 /* SidebarController.m */; };
+		62C8D9511CDE026700471EE2 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8D9501CDE026700471EE2 /* PlayerController.m */; };
 		752548A807F7C7367035AE2F /* libPods-DoubanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09582FED48464CD3A29EB0ED /* libPods-DoubanPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,10 @@
 		626FDF5A1CDB50D9006187C0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		626FDF601CDB696E006187C0 /* ProtocolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolClass.h; sourceTree = "<group>"; };
 		626FDF611CDB696E006187C0 /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
+		62C8D94B1CDDFFE700471EE2 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		62C8D94C1CDDFFE700471EE2 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
+		62C8D94F1CDE026700471EE2 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
+		62C8D9501CDE026700471EE2 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
 		62F16BE91CDA2EC300CD9B42 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		BC94C0679F37C908816E9BC4 /* Pods-DoubanPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanPlayer/Pods-DoubanPlayer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +140,7 @@
 		1C3B55CF1CDC70C300C7BCF8 /* DoubanFMUITests */ = {
 			isa = PBXGroup;
 			children = (
+				62C8D94E1CDE021700471EE2 /* mondel */,
 				1C3B55D01CDC70C300C7BCF8 /* DoubanFMUITests.m */,
 				1C3B55D11CDC70C300C7BCF8 /* Info.plist */,
 			);
@@ -183,6 +190,8 @@
 				626FDF5F1CDB64B1006187C0 /* Controller */,
 				62F16BE91CDA2EC300CD9B42 /* PlayerViewController.h */,
 				62F16BEA1CDA2EC300CD9B42 /* PlayerViewController.m */,
+				62C8D94B1CDDFFE700471EE2 /* SidebarController.h */,
+				62C8D94C1CDDFFE700471EE2 /* SidebarController.m */,
 				4A8C20051CDDD61A00904E22 /* UserInfoViewController.h */,
 				4A8C20061CDDD61A00904E22 /* UserInfoViewController.m */,
 				62F16BE21CDA2B8E00CD9B42 /* Mondel */,
@@ -245,6 +254,15 @@
 			children = (
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		62C8D94E1CDE021700471EE2 /* mondel */ = {
+			isa = PBXGroup;
+			children = (
+				62C8D94F1CDE026700471EE2 /* PlayerController.h */,
+				62C8D9501CDE026700471EE2 /* PlayerController.m */,
+			);
+			name = mondel;
 			sourceTree = "<group>";
 		};
 		62F16BE21CDA2B8E00CD9B42 /* Mondel */ = {
@@ -399,6 +417,7 @@
 			files = (
 				1CB7288C1CDA292100DD10C4 /* ViewController.m in Sources */,
 				1C7EE4501CDDC67B00F7F690 /* Channellnfo.m in Sources */,
+				62C8D94D1CDDFFE700471EE2 /* SidebarController.m in Sources */,
 				4AEB1D951CDCAFBD00B7F2F8 /* DFMPlaylist.m in Sources */,
 				4A09A9C11CDDC40200E9F7D9 /* DFMUpChannelsEntity.m in Sources */,
 				4A09A9C01CDDC40200E9F7D9 /* DFMRecChannelsEntity.m in Sources */,
@@ -414,6 +433,7 @@
 				1C7EE4541CDDC67B00F7F690 /* DFMUpChannelsEntity.m in Sources */,
 				1C7EE4521CDDC67B00F7F690 /* DFMHotChannelsEntity.m in Sources */,
 				4AEB1D921CDCAD8F00B7F2F8 /* UserInfo.m in Sources */,
+				62C8D9511CDE026700471EE2 /* PlayerController.m in Sources */,
 				4A8C20071CDDD61A00904E22 /* UserInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
